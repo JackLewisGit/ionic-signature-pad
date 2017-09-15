@@ -1,0 +1,10 @@
+<ion-content>
+  <div id="pad-container" #pad>
+    <signature-pad [options]="options"></signature-pad>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <button ion-button large (click)="save()">Save signature</button>
+  <button ion-button large color="danger" (click)="cancel()">Cancel</button>
+</ion-footer>
